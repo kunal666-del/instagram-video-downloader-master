@@ -1,0 +1,33 @@
+{
+  "name": "Instagram Saver",
+  "short_name": "Instagram Saver",
+  "icons": [
+    {
+      "src": "/images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en-us",
+  "dir": "ltr",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "landscape-primary",
+  "description": "Download and save Instagram videos from reels and posts with Instagram Saver.",
+  "categories": [
+    "Entertainment",
+    "Social",
+    "Video",
+    "Saver",
+    "Downloader",
+    "Instagram",
+    "Media"
+  ]
+}
