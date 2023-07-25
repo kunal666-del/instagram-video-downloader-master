@@ -24,6 +24,21 @@ const navbarLinks: NavbarLinkProps[] = [
     title: "Home",
     href: "/",
   },
+  {
+    id: 1,
+    title: "About Us",
+    href: "/About",
+  },
+  {
+    id: 2,
+    title: "Privacy Policy",
+    href: "/Privacy",
+  },
+  {
+    id: 3,
+    title: "Contact Us",
+    href: "/Contact",
+  },
 
 ];
 
