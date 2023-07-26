@@ -27,12 +27,12 @@ export default function HomePage() {
       </section>
       <section>
       <h3 className="fontbold text-xl text-center">Features</h3>
-      <div className= 'flex justify-center'>
-      <h4>1. Instagram Video Downloader</h4>
+      <div className= 'flex justify-center flex-col'>
+      <h4 className="my-4">1. Instagram Video Downloader</h4>
       <div className="flex">
  
         <Image
-      src="../public/images/OIP.jpg"
+      src="./public/images/OIP.jpg"
       width={100}
       height={100}
       alt="Picture of the author"
