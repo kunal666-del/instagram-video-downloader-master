@@ -1,6 +1,10 @@
 import InstagramForm from "@/components/instagram/InstagramForm";
+import Head from "next/head";
 
 export default function HomePage() {
+  <Head>
+    <meta name="google-site-verification" content="ti1R8NiKO8Dbr-LivqYRTYPirAEmcZj7A_BHzyeSzSQ" />
+  </Head>
   return (
     <main className="container mx-auto my-8 w-full flex-1 rounded p-4 md:max-w-3xl">
       <section className="mb-8 motion-safe:animate-[animate-drop_1.5s_ease-in-out_1]">
