@@ -29,12 +29,12 @@ export default function HomePage() {
       <h3 className="fontbold text-xl text-center">Features</h3>
       <div className= 'flex justify-center'>
       <h4>1. Instagram Video Downloader</h4>
-      <div className="flex flex-col">
+      <div className="flex">
  
         <Image
-      src="https://www.bing.com/images/search?view=detailV2&ccid=%2b3IzJ%2bVN&id=AEE487B1C75549750D0EB896ECEDA3BC9F281FC6&thid=OIP.-3IzJ-VNiRpYxxTQOEg43QHaEs&mediaurl=https%3a%2f%2fwww.businessinsider.in%2fphoto%2f78288158%2finstagram-reels-new-update-allows-longer-videos-doubles-the-length-of-the-clips-you-can-upload.jpg%3fimgsize%3d244031&exph=1024&expw=1616&q=instagram+video&simid=607995308976309756&FORM=IRPRST&ck=3E889450B87A2A8728670FC27ABE26EE&selectedIndex=0"
-      width={500}
-      height={500}
+      src="../public/images/OIP.jpg"
+      width={100}
+      height={100}
       alt="Picture of the author"
     />
         <p>Save It is an instagram video downloader, using which you can download any type of Instagram video from public accounts, you just have to copy the link and paste in the form above and click download button, your video will start to download in few seconds, Save it instagram downloader is totally free and doesn't require any username or password to work, so it is also totally risk free.</p>
