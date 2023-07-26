@@ -3,6 +3,7 @@
 import { DM_Sans as MainFont } from "next/font/google";
 import Provider from "@/components/Provider";
 import { mainMetadata } from "@/configs/seo";
+import { Analytics } from '@vercel/analytics/react';
 import "@/styles/globals.css";
 import Script from "next/script";
 
@@ -42,6 +43,7 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         `}
       </Script>
         <Provider>{children}</Provider>
+        <Analytics />
       </body>
     </html>
   );
