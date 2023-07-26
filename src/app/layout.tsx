@@ -34,15 +34,6 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         src="https://www.googletagmanager.com/gtag/js?id=G-2VDKJKTX6F"
         strategy="afterInteractive"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-2VDKJKTX6F');
-        `}
-      </Script>
         <Provider>{children}</Provider>
         <Analytics />
       </body>
