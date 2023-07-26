@@ -115,7 +115,7 @@ export default function InstagramForm() {
         <div className="mb-1 text-sm text-red-500 md:text-base">{errorMsg}</div>
       )}
       <form
-        className="flex flex-col items-center gap-4 motion-safe:animate-[animate-up_1.5s_ease-in-out_1] md:flex-row md:gap-2"
+        className="flex flex-col items-center gap-4 md:flex-row md:gap-2"
         onSubmit={handleSubmit}
       >
         <label htmlFor="url-input" className="sr-only">
