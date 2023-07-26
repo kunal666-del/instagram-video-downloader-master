@@ -6,6 +6,7 @@ import { mainMetadata } from "@/configs/seo";
 import { Analytics } from '@vercel/analytics/react';
 import "@/styles/globals.css";
 import Script from "next/script";
+import Head from "next/head";
 
 
 const mainFont = MainFont({
@@ -22,6 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+      <meta name="google-site-verification" content="ti1R8NiKO8Dbr-LivqYRTYPirAEmcZj7A_BHzyeSzSQ" />
+      </Head>
       <body
         className={`overflow-x-hidden bg-white text-gray-900 dark:bg-gray-800 dark:text-slate-100 ${mainFont.className}`}
       >
