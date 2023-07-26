@@ -7,7 +7,7 @@ export default function HomePage() {
   </Head>
   return (
     <main className="container mx-auto my-8 w-full flex-1 rounded p-4 md:max-w-3xl">
-      <section className="mb-8 motion-safe:animate-[animate-drop_1.5s_ease-in-out_1]">
+      <section className="mb-8">
         <h1 className="mb-2 text-center text-3xl font-bold sm:text-4xl">
           Instagram Video Downloader
         </h1>
@@ -25,8 +25,8 @@ export default function HomePage() {
         </p>
       </section>
       <section>
-        <h2 className="text-4xl font-extrabold underline underline-offset-4 text-center my-7 motion-safe:animate-[animate-late-fade-in_2s_ease-in-out_1] ">How It Works</h2>
-        <ul className=" text-2xl text-center motion-safe:animate-[animate-late-fade-in_2s_ease-in-out_1] ">
+        <h2 className="text-4xl font-extrabold underline underline-offset-4 text-center my-7 ">How It Works</h2>
+        <ul className=" text-2xl text-center">
           <li>1. Open Instagram</li>
           <li>2. Click on share button</li>
           <li>3. Click On Copy Link</li>
@@ -36,7 +36,7 @@ export default function HomePage() {
         </ul>
       </section>
       <section>
-        <h2 className="text-4xl my-10 font-extrabold text-center motion-safe:animate-[animate-late-fade-in_2s_ease-in-out_1] ">Thanks! for using Instagram downloader, Do share with Your friends ✨✨</h2>
+        <h2 className="text-4xl my-10 font-extrabold text-center ">Thanks! for using Instagram downloader, Do share with Your friends ✨✨</h2>
       </section>
     </main>
   );
