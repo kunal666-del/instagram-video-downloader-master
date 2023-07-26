@@ -1,5 +1,6 @@
 import InstagramForm from "@/components/instagram/InstagramForm";
 import Head from "next/head";
+import Image from "next/Image"
 
 export default function HomePage() {
   <Head>
@@ -25,15 +26,14 @@ export default function HomePage() {
         </p>
       </section>
       <section>
-        <h2 className="text-4xl font-extrabold underline underline-offset-4 text-center my-7 ">How It Works</h2>
-        <ul className=" text-2xl text-center">
-          <li>1. Open Instagram</li>
-          <li>2. Click on share button</li>
-          <li>3. Click On Copy Link</li>
-          <li>4. Paste Your Copied Link Above</li>
-          <li>5. Click Download</li>
-          <li>Your Download will start in few seconds</li>
-        </ul>
+      <h3 className="fontbold text-xl text-center">Features</h3>
+      <div className= 'flex justify-center'>
+      <h4>1. Instagram Video Downloader</h4>
+      <div className="flex flex-col">
+        <Image src= "https://www.bing.com/images/search?view=detailV2&ccid=%2b3IzJ%2bVN&id=AEE487B1C75549750D0EB896ECEDA3BC9F281FC6&thid=OIP.-3IzJ-VNiRpYxxTQOEg43QHaEs&mediaurl=https%3a%2f%2fwww.businessinsider.in%2fphoto%2f78288158%2finstagram-reels-new-update-allows-longer-videos-doubles-the-length-of-the-clips-you-can-upload.jpg%3fimgsize%3d244031&exph=1024&expw=1616&q=instagram+video&simid=607995308976309756&FORM=IRPRST&ck=3E889450B87A2A8728670FC27ABE26EE&selectedIndex=0" ></Image>
+        <p>Save It is an instagram video downloader, using which you can download any type of Instagram video from public accounts, you just have to copy the link and paste in the form above and click download button, your video will start to download in few seconds, Save it instagram downloader is totally free and doesn't require any username or password to work, so it is also totally risk free.</p>
+      </div>
+      </div>
       </section>
       <section>
         <h2 className="text-4xl my-10 font-extrabold text-center ">Thanks! for using Instagram downloader, Do share with Your friends ✨✨</h2>
